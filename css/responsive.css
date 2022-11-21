@@ -1,0 +1,64 @@
+@media only screen and (max-width:992px) {
+    .mainTitle{
+        flex-wrap: wrap;
+    }
+    .main .items .item{
+        width: 45%;
+    }
+}
+@media only screen and (max-width:768px) {
+.navbar{
+    display: none;
+}
+.menu-icon{
+    display: block;
+}
+.mainTitle .title{
+    width: 100%;
+}
+.testimonialText{
+    width: 70%;
+}
+.testimonialText p{
+    width: 100%;
+    padding: 15px;
+}
+.testimonialText h2{
+    padding: 0;
+}
+.footer1{
+    display: block;
+text-align: center;
+}
+.footer1 p{
+    padding: 5px;
+}
+.text{
+    width: 65%;
+    font-size: 10px;
+}
+.next{
+    margin-right: 10px;
+    font-size: 5px;
+}
+.prev{
+    margin-left: 5px;
+    font-size: 5px;
+}
+}
+@media only screen and (max-width:380px) {
+    .testimonialText{
+        width: 80%;
+    }
+    .testimonialText p{
+        width: 100%;
+        padding: 10px;
+    }
+    .footer1{
+        display: block;
+    text-align: center;
+    }
+    .slideshow-container{
+        display: none;
+    }
+    }
